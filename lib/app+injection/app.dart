@@ -27,6 +27,9 @@ class _AppState extends State<App> {
 
   @override
   void initState() {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+    ]);
     super.initState();
     appBloc.add(LaunchAppEvent());
   }

@@ -8,7 +8,7 @@ class ConvertExchangeUseCase extends UseCase<double, ConvertExchangeParams> {
 
     double sekAmount = params.amount * (params.fromSellCurrency / params.fromByCurrency );
     return sekAmount * (params.toByCurrency / params.toSellCurrency);
-    return params.amount * (params.toByCurrency / params.fromSellCurrency);
+   // return params.amount / (params.toByCurrency * params.fromSellCurrency);
   }
 }
 

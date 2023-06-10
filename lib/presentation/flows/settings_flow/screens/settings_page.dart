@@ -67,7 +67,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
                 Container(
                   color: locator<AppThemeColors>().surface,
-                  height: 150.sp,
+                  height: 190.sp,
                   child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 24.0.sp, vertical: 8.sp),
                     child: Column(
@@ -147,7 +147,7 @@ class _SettingsPageState extends State<SettingsPage> {
                             Row(
                               children: [
                                 Container(
-                                  height: 43.sp,
+                                  height: 45.sp,
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(30.0.sp),
                                     border:
